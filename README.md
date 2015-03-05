@@ -15,7 +15,7 @@ This describes the details of the script and how they achieve the 5 requirements
  - Read in activity labels to replace activity ID with activity names.
  - Read in the variable names to name all of the columns.
 
-### Combining the data and laveling the 
+### Combining the data and labeling the variables 
  - Bind the columns of user ID, activity ID and data for each of the training and test data sets.
  - Rename the columns in the test and training data sets.  (Completes objective 4)
  - Bind the test and training sets together and set as all.Data. (Completes objective 1)
