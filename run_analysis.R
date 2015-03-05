@@ -77,6 +77,6 @@ tidy.Data<-all.Data.Mean.Std%>%
     summarise_each(funs(mean))
 
 #write data out to txt file
-write.table(tidy.Data,file='all_data_mean_and_std.txt',row.name=FALSE)
+write.table(tidy.Data,file='tidy_data_mean_and_std.txt',row.name=FALSE)
 #this completes the fifth objective
 
