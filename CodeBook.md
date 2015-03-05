@@ -1,5 +1,4 @@
 # Code Book 
-------
 ## Overview
  This code book describes the data found in the UCI HAR Dataset and the processes it underwent to become a tidy dataset that is stored in the file tidy_data_mean_and_std.txt.
 ### Structure of the Code book
@@ -21,7 +20,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
  50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
  
 For each record it is provided:
-======================================
+------------
  
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope.
