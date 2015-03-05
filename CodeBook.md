@@ -19,8 +19,7 @@ where 70% of the volunteers was selected for generating the training data and 30
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
  50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
  
-For each record it is provided:
-------------
+#### For each record it is provided:
  
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope.
@@ -87,7 +86,7 @@ This gives a detailed account of how the data was processed in R.
  - Read in activity labels to replace activity ID with activity names.
  - Read in the variable names to name all of the columns.
 
-### Combining the data and laveling the 
+### Combining the data and labeling the variables
  - Bind the columns of user ID, activity ID and data for each of the training and test data sets.
  - Rename the columns in the test and training data sets.  
  - Bind the test and training sets together and set as all.Data. 
